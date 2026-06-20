@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MAIN CONTENT WRAP (added as you asked) -->
+<div id="mainContent">
+
+    <table id="myTable" class="table">
+        <tr>
+            <th>QuantityName</th>
+            <th>Quantity item</th>
+            <th>Quantity Price</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="name"></td>
+            <td><input type="number" class="qty"></td>
+            <td><input type="number" class="price"></td>
+            <td><input type="number" class="total" readonly></td>
+        </tr>
+
+    </table>
+
+    <h2>Grand Total: <span id="grandTotal">0</span></h2>
+
+    <button onclick="generateReceipt()">Submit / Generate Receipt</button>
+    <button onclick="window.print()">Print / Photocopy</button>
+
+</div>
+<!-- END MAIN CONTENT -->
+
+<!-- Receipt Box -->
+<div id="receipt">
+
+    <div class="header">
+        <h2>WHOLE SALE KARINA STORE</h2>
+        <p>Madan Pura, Faisalabad</p>
+        <p>Phone: 03564534353</p>
+    </div>
+
+    <hr>
+
+    <div id="receiptData"></div>
+
+    <hr>
+
+    <h3 id="receiptTotal"></h3>
+
+    <div class="note">
+        <p>⚠ Exchange & Return within 3 days with bill</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
